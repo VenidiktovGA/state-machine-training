@@ -1,0 +1,13 @@
+@startuml
+title Конечный автомат билетного автомата
+
+state Begin #PowderBlue : insert 5 coins
+state Coin_5 #Coral : has 5 coins
+state Coin_10 #DimGray : has 10 coins
+
+Begin -[#PowderBlue]-> Coin_5 : coin
+Coin_5 -[#Coral]-> Begin : cancel
+Coin_5 -[#Coral]-> Coin_10 : coin
+Coin_10 -[#DimGray]-> Begin : begin
+
+@enduml

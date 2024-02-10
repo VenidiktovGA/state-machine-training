@@ -1,0 +1,10 @@
+@startuml
+title Конечный автомат выключателя
+
+state LightOn #Gold : light on
+state LightOff #DimGray : light off
+
+LightOn --> LightOff : ButtonPressed
+LightOff --> LightOn  : ButtonPressed
+
+@enduml
