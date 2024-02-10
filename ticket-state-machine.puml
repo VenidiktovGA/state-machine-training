@@ -1,5 +1,5 @@
 @startuml
-title Конечный автомат билетного автомата
+title Конечный автомат билетного аппарата
 
 state Begin #PowderBlue : insert 5 coins
 state Coin_5 #Coral : has 5 coins
