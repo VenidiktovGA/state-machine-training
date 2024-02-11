@@ -1,4 +1,4 @@
-package ru.venidiktov.state.machine.training.manual;
+package ru.venidiktov.state.machine.training.simple;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
@@ -6,14 +6,14 @@ import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
 @Getter
-public class TicketManualStateMachine {
+public class TicketSimpleStateMachine {
 
     private STATE currentState = STATE.BEGIN; // Первоначальное состояние билетного аппарата BEGIN
 
     /**
      * При установке билетный аппарат начинает свою работу с начального действия
      */
-    public TicketManualStateMachine() {
+    public TicketSimpleStateMachine() {
         currentState.doAction();
     }
 

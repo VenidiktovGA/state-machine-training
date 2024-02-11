@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Интерфакс – Сервер раскрытия информации</title>
+    <meta charset="utf-8"/>
+    <meta name="description" content="Список новостей Центра раскрытия корпоративной информации">
+</head>
+<body class="site-page">
+
+<div class="site-page__body-inside">
+    <div class="site-middle">
+        <div class="site-middle__std-inside">
+            <div class="std-main-content std-inside__std-main-content">
+
+                <div class="title_basic">Новости</div>
+                <div class="infoblock">
+                    <form id="newsListForm" class="search-form news-list-form__search-form">
+                        <div class="search-form__row">
+                            <span class="search-form__field-name">Показать новости за</span>
+                            <div class="search-form__field-value">
+                                <select name="year" id="year" autocomplete="off">
+                                    <option value="2024">2024 год &nbsp;</option>
+                                    <option value="2023">2023 год &nbsp;</option>
+                                    <option value="2022">2022 год &nbsp;</option>
+                                    <option value="2021">2021 год &nbsp;</option>
+                                    <option value="2020">2020 год &nbsp;</option>
+                                    <option value="2019">2019 год &nbsp;</option>
+                                    <option value="2018">2018 год &nbsp;</option>
+                                    <option value="2017">2017 год &nbsp;</option>
+                                    <option value="2016">2016 год &nbsp;</option>
+                                    <option value="2015">2015 год &nbsp;</option>
+                                    <option value="2014">2014 год &nbsp;</option>
+                                    <option value="2013">2013 год &nbsp;</option>
+                                    <option value="2012">2012 год &nbsp;</option>
+                                    <option value="2011">2011 год &nbsp;</option>
+                                    <option value="2010">2010 год &nbsp;</option>
+                                    <option value="2009">2009 год &nbsp;</option>
+                                    <option value="2008">2008 год &nbsp;</option>
+                                    <option value="2007">2007 год &nbsp;</option>
+                                    <option value="2006">2006 год &nbsp;</option>
+                                    <option value="2005">2005 год &nbsp;</option>
+                                </select>
+                            </div>
+                        </div>
+                        <input id="currentPage" name="currentPage" type="hidden" value="1"/>
+                        <input id="pageSize" name="pageSize" type="hidden" value="10"/>
+                    </form>
+                </div>
+                <div id="newsList">
+                    <div id="cont_wrap">
+                        <div class="time">
+                            <span class="date">09.02.2024</span>
+                            <span class="graytext"></span>
+                        </div>
+                        <div class="listitem">
+                            <a href="/vse-novosti/novost/5756" class="blacklink">Первая редакция перечня ЭЗО может
+                                появиться в феврале - первый замглавы Минэкономразвития</a>
+                        </div>
+                        <div class="time">
+                            <span class="date">05.02.2024</span>
+                            <span class="graytext"></span>
+                        </div>
+                        <div class="listitem">
+                            <a href="/vse-novosti/novost/5755" class="blacklink">Бизнес добивается отмены закона штата
+                                Калифорния о раскрытии парниковых выбросов</a>
+                        </div>
+                        <div class="time">
+                            <span class="date">02.02.2024</span>
+                            <span class="graytext"></span>
+                        </div>
+                        <div class="listitem">
+                            <a href="/vse-novosti/novost/5754" class="blacklink">Ассоциация розничных инвесторов
+                                вступилась за миноритариев Petropavlovsk</a>
+                        </div>
+                        <div class="time">
+                            <span class="date">01.02.2024</span>
+                            <span class="graytext"></span>
+                        </div>
+                        <div class="listitem">
+                            <a href="/vse-novosti/novost/5753" class="blacklink">Tesla может перерегистрироваться из
+                                Делавэра, главной «корпоративной гавани» США</a>
+                        </div>
+                        <div class="time">
+                            <span class="date">31.01.2024</span>
+                            <span class="graytext"></span>
+                        </div>
+                        <div class="listitem">
+                            <a href="/vse-novosti/novost/5752" class="blacklink">Провести IPO и SPO на Мосбирже в 2024
+                                году могут более 20 компаний - управляющий директор</a>
+                        </div>
+                        <div class="time">
+                            <span class="date">31.01.2024</span>
+                            <span class="graytext"></span>
+                        </div>
+                        <div class="listitem">
+                            <a href="/vse-novosti/novost/5751" class="blacklink">ЦБ РФ хочет получать больше сведений о
+                                показателях отклонений на торгах</a>
+                        </div>
+                        <div class="time">
+                            <span class="date">29.01.2024</span>
+                            <span class="graytext"></span>
+                        </div>
+                        <div class="listitem">
+                            <a href="/vse-novosti/novost/5750" class="blacklink">В Европе появятся стандарты раскрытия
+                                ESG-информации для МСП</a>
+                        </div>
+                        <div class="time">
+                            <span class="date">29.01.2024</span>
+                            <span class="graytext"></span>
+                        </div>
+                        <div class="listitem">
+                            <a href="/vse-novosti/novost/5749" class="blacklink">«Экономически значимые организации»
+                                смогут не раскрывать информацию о своей деятельности - указ</a>
+                        </div>
+                        <div class="time">
+                            <span class="date">26.01.2024</span>
+                            <span class="graytext"></span>
+                        </div>
+                        <div class="listitem">
+                            <a href="/vse-novosti/novost/5748" class="blacklink">Владелец &quot;Тоттенхэма&quot; признал
+                                вину по делу об инсайдерской торговле акциями</a>
+                        </div>
+                        <div class="time">
+                            <span class="date">22.01.2024</span>
+                            <span class="graytext"></span>
+                        </div>
+                        <div class="listitem">
+                            <a href="/vse-novosti/novost/5747" class="blacklink">Число эмитентов, раскрывающих
+                                информацию для инвесторов, выросло впервые с 2019 г - статистика</a>
+                        </div>
+                    </div>
+                    <div id="paging">
+                        <div class="pagingblock">
+                            <div class="left">
+                                <label for="ddl-page-size">Отображать записей&nbsp;</label>
+                                <select id="ddl-page-size" name="pageSize" style="width: 55px;" autocomplete="off">
+                                    <option value="10" selected="selected">10&nbsp;</option>
+                                    <option value="20">20&nbsp;</option>
+                                    <option value="2147483647">Все&nbsp;</option>
+                                </select>
+                            </div>
+                            <div class="left totalCount">
+                                <div class="table">
+                                    <div class="table__body">
+                                        <div class="table__row">
+                                            <div class="table__cell">&nbsp;Всего записей:&nbsp;21</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="paging">
+                                <ul>
+                                    <li class="active">1</li>
+                                    <li><a class="page" data-link-page="2" href="#">2</a></li>
+                                    <li><a class="page" data-link-page="3" href="#">3</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="anons-news-tech std-inside__anons-news-tech">
+                <div id="adfox_168173373305942583"></div>
+                <div class="anons-news-tech__block">
+
+
+                    <div class="news">
+                        <div class="small-news-list__title">Анонсы</div>
+                        <div class="time left">
+                            <div class="date left">01.12.2023 - 31.12.2024</div>
+                            <div class="graytext rightCity"></div>
+                        </div>
+                        <div class="listitem full-width">
+                            <a class="blacklink" href="/vse-anonsy/anons/1061">График семинаров на 2024 год по теме
+                                "Изменения в корпоративном законодательстве – 2024. Взаимодействие с акционерами и
+                                нерезидентами. Выплата дивидендов. Раскрытие и «закрытие» информации с учётом изменений
+                                в Положении 714-п с 1.04.2023"</a>
+                        </div>
+                        <div class="time left">
+                            <div class="date left">01.12.2023 - 31.12.2024</div>
+                            <div class="graytext rightCity"></div>
+                        </div>
+                        <div class="listitem full-width">
+                            <a class="blacklink" href="/vse-anonsy/anons/1203">График семинаров на 2024 год по теме
+                                "Отчет эмитента, существенные факты, инсайд. Порядок раскрытия информации в соответствии
+                                со ст.30 ФЗ о РЦБ, а также инсайдерской информации"</a>
+                        </div>
+                        <div class="time left">
+                            <div class="date left">01.02.2024 - 31.05.2024</div>
+                            <div class="graytext rightCity"></div>
+                        </div>
+                        <div class="listitem full-width">
+                            <a class="blacklink" href="/vse-anonsy/anons/1360">Серия бесплатных вебинаров
+                                «Весна-2024»</a>
+                        </div>
+                        <div class="time left">
+                            <div class="date left">13.02.2024 - 14.02.2024</div>
+                            <div class="graytext rightCity">Омск</div>
+                        </div>
+                        <div class="listitem full-width">
+                            <a class="blacklink" href="/vse-anonsy/anons/1354">Раскрытие и «закрытие» информации.
+                                Изменения в корпоративном законодательстве – 2024. Федресурс. Взаимодействие с
+                                акционерами.</a>
+                        </div>
+                        <div class="time left">
+                            <div class="date left">15.02.2024 - 16.02.2024</div>
+                            <div class="graytext rightCity">Новосибирск</div>
+                        </div>
+                        <div class="listitem full-width">
+                            <a class="blacklink" href="/vse-anonsy/anons/1355">Раскрытие и «закрытие» информации.
+                                Изменения в корпоративном законодательстве – 2024. Федресурс. Взаимодействие с
+                                акционерами.</a>
+                        </div>
+                    </div>
+
+                    <a class="button button_light anons-news-tech__button" href="/vse-anonsy">Все анонсы</a>
+                </div>
+                <div class="anons-news-tech__block">
+
+
+                    <div class="news">
+                        <div class="small-news-list__title">Новости</div>
+                        <div class="time">
+                            <span class="date">09.02.2024</span>
+                            <span class="graytext"></span>
+                        </div>
+                        <div class="listitem">
+                            <a class="blacklink" href="/vse-novosti/novost/5756">Первая редакция перечня ЭЗО может
+                                появиться в феврале - первый замглавы Минэкономразвития</a>
+                        </div>
+                        <div class="time">
+                            <span class="date">05.02.2024</span>
+                            <span class="graytext"></span>
+                        </div>
+                        <div class="listitem">
+                            <a class="blacklink" href="/vse-novosti/novost/5755">Бизнес добивается отмены закона штата
+                                Калифорния о раскрытии парниковых выбросов</a>
+                        </div>
+                        <div class="time">
+                            <span class="date">02.02.2024</span>
+                            <span class="graytext"></span>
+                        </div>
+                        <div class="listitem">
+                            <a class="blacklink" href="/vse-novosti/novost/5754">Ассоциация розничных инвесторов
+                                вступилась за миноритариев Petropavlovsk</a>
+                        </div>
+                        <div class="time">
+                            <span class="date">01.02.2024</span>
+                            <span class="graytext"></span>
+                        </div>
+                        <div class="listitem">
+                            <a class="blacklink" href="/vse-novosti/novost/5753">Tesla может перерегистрироваться из
+                                Делавэра, главной «корпоративной гавани» США</a>
+                        </div>
+                        <div class="time">
+                            <span class="date">31.01.2024</span>
+                            <span class="graytext"></span>
+                        </div>
+                        <div class="listitem">
+                            <a class="blacklink" href="/vse-novosti/novost/5752">Провести IPO и SPO на Мосбирже в 2024
+                                году могут более 20 компаний - управляющий директор</a>
+                        </div>
+                    </div>
+
+                    <a class="button button_light anons-news-tech__button" href="/vse-novosti">Все новости</a>
+                </div>
+                <div id="adfox_168173386396589028"></div>
+                <div id="adfox_16817338660869469"></div>
+                <div id="adfox_168173386897027439"></div>
+                <div id="adfox_168173387120063137"></div>
+                <div class="anons-news-tech__block">
+
+
+                    <div class="news">
+                        <div class="small-news-list__title">Техническая информация</div>
+                        <div class="time">
+                            <span class="date">07.11.2023</span>
+                            <span class="graytext"></span>
+                        </div>
+                        <div class="listitem">
+                            <a class="blacklink" href="/TechInfo/Index/92">Технические работы на сайте 7 ноября 2023
+                                года</a>
+                        </div>
+                        <div class="time">
+                            <span class="date">27.10.2023</span>
+                            <span class="graytext"></span>
+                        </div>
+                        <div class="listitem">
+                            <a class="blacklink" href="/TechInfo/Index/91">Реализована возможность использования
+                                машиночитаемых доверенностей (МЧД)</a>
+                        </div>
+                        <div class="time">
+                            <span class="date">26.10.2023</span>
+                            <span class="graytext"></span>
+                        </div>
+                        <div class="listitem">
+                            <a class="blacklink" href="/TechInfo/Index/90">Технические работы на сайте 26 октября 2023
+                                года</a>
+                        </div>
+                        <div class="time">
+                            <span class="date">29.09.2023</span>
+                            <span class="graytext"></span>
+                        </div>
+                        <div class="listitem">
+                            <a class="blacklink" href="/TechInfo/Index/89">Технические работы на сайте 29 сентября 2023
+                                года</a>
+                        </div>
+                        <div class="time">
+                            <span class="date">07.09.2023</span>
+                            <span class="graytext"></span>
+                        </div>
+                        <div class="listitem">
+                            <a class="blacklink" href="/TechInfo/Index/87">Технические работы на сайте 7 сентября 2023
+                                года</a>
+                        </div>
+                    </div>
+
+                    <a class="button button_light anons-news-tech__button" href="/TechInfo">Все сообщения</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<input name="__RequestVerificationToken" type="hidden"
+       value="CfDJ8BY7u8iyc3hKhgmf_nIN6LnhUSAUDD-AAoVs0m-4AqrxfTvSAQYw3iGmZfvReoLoNK3WxR8A409uoTHo2Cj32bmWBB8soZQuGd7yXkcuEtAqzEOkJuxOvmZInvDlqk_vf6TV9hnHDMLcKBTqQ9W5mXo"/>
+<div id="CookieWarningPopup">
+    На этом сайте используются файлы cookie. Оставаясь на www.e-disclosure.ru, Вы соглашаетесь с <a
+        href="https://e-disclosure.ru/politika-obrabotki-i-zashchity-personalnyh-dannyh" target="_blank">Политикой
+    обработки и защиты персональных данных</a>.
+    <button type="button" id="AcceptCookieBtn" class="button2" style="margin-left: 5px;">ОК</button>
+</div>
+<div id="modalLayout"></div>
+</body>
+</html>
