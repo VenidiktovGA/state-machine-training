@@ -1,7 +1,7 @@
-package ru.venidiktov.state.machine.training.parser.simple;
+package ru.venidiktov.state.machine.training.parser.impl.simple;
 
 import lombok.extern.slf4j.Slf4j;
-import ru.venidiktov.state.machine.training.parser.Parser;
+import ru.venidiktov.state.machine.training.parser.impl.Parser;
 import ru.venidiktov.state.machine.training.parser.model.Content;
 import ru.venidiktov.state.machine.training.parser.model.ListNews;
 import ru.venidiktov.state.machine.training.parser.sm.State;

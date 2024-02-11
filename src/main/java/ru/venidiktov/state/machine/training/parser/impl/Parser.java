@@ -1,4 +1,4 @@
-package ru.venidiktov.state.machine.training.parser;
+package ru.venidiktov.state.machine.training.parser.impl;
 
 import ru.venidiktov.state.machine.training.parser.model.Content;
 import ru.venidiktov.state.machine.training.parser.model.ListNews;
